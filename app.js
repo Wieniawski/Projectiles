@@ -114,7 +114,7 @@ class Ball{
         c.style.top = y + "px";
 
         let img = document.createElement('img');
-        img.src = 'https://wieniawski.github.io/nickProjectiles/newnk.png';
+        img.src = 'https://wieniawski.github.io/nickProjectiles/editedgup.png';
         img.style.webkitUserSelect = 'none';
         img.style.userSelect = 'none';
         c.appendChild(img);
@@ -160,10 +160,10 @@ class Ball{
                
 
             //    let randAngle = 270 + Math.random() * 100 - 50;
-            //    let magnitude = 20;
-            //    objects.push(new Ball(objects[i].x, objects[i].y-20, magnitude * Math.cos(randAngle * Math.PI / 180), magnitude * Math.sin(randAngle * Math.PI / 180), 0));
+            //    let magnitude = 20;ath.PI / 180), magnitude * Math.sin(randAngle * Math.PI / 180), 0));
               objects.push(new Ball(objects[i].x, objects[i].y-20, newVelX, newVelY, 0));
 
+            //    objects.push(new Ball(objects[i].x, objects[i].y-20, magnitude * Math.cos(randAngle * M
 
                objects[i].ball.remove();
                objects.splice(i, 1);
