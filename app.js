@@ -114,7 +114,7 @@ class Ball{
         c.style.top = y + "px";
 
         let img = document.createElement('img');
-        img.src = 'https://wieniawski.github.io/nickProjectiles/newnk.png' + "?" + new Date().getTime();
+        img.src = 'https://wieniawski.github.io/nickProjectiles/newnk.png';
         img.style.webkitUserSelect = 'none';
         img.style.userSelect = 'none';
         c.appendChild(img);
